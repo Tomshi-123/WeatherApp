@@ -1,6 +1,6 @@
 
 body {
-    background-color: #1a3a4bd9;
+    background-image: url("images/väderbild.jpg");
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display:flex;
     align-items: center;
@@ -10,13 +10,11 @@ body {
 }
 
 #weather-container {
-    background-color: rgba(135, 129, 255, 0.336);
     max-width: 400px;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.788);
+    backdrop-filter: blur(25px);
     text-align: center;
 }
 
@@ -35,7 +33,7 @@ input {
 }
 
 button {
-    background: #7cb48dd8;
+    background: #0e3757f6;
     color: white;
     padding: 10px;
     border: none;
@@ -47,7 +45,7 @@ button {
 }
 
 button:hover {
-    background: #7cb48d6c;
+    background: #0e3757a7;
 }
 
 #temp-div p {
