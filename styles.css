@@ -88,3 +88,14 @@ button:hover {
     height: 30px;
     margin-bottom: 5px;
 }
+
+@media (max-width: 768px) {
+
+    #weather-container {
+        max-width: 350px;
+    }
+    
+    input  {
+        width: 300px;
+    }
+}
